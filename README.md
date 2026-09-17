@@ -16,6 +16,7 @@
 
         body {
             min-height: 100vh;
+
             background:
                 radial-gradient(
                     circle at 50% 35%,
@@ -43,6 +44,7 @@
         .logo {
             width: 105px;
             height: 105px;
+
             margin: 0 auto 28px;
 
             display: flex;
@@ -66,12 +68,14 @@
             font-size: 58px;
             font-weight: 900;
             letter-spacing: -3px;
+
             margin-bottom: 12px;
         }
 
         .description {
             color: #999;
             font-size: 19px;
+
             margin-bottom: 28px;
         }
 
@@ -98,6 +102,7 @@
         .online-dot {
             width: 10px;
             height: 10px;
+
             border-radius: 50%;
 
             background: #facc15;
@@ -153,16 +158,6 @@
             font-size: 24px;
         }
 
-        .footer {
-            margin-top: 30px;
-            color: #666;
-            font-size: 14px;
-        }
-
-        .footer span {
-            color: #facc15;
-        }
-
         @media (max-width: 600px) {
 
             body {
@@ -172,8 +167,11 @@
             .logo {
                 width: 90px;
                 height: 90px;
+
                 border-radius: 25px;
+
                 font-size: 45px;
+
                 margin-bottom: 22px;
             }
 
@@ -222,10 +220,6 @@
                 Бот для сноса
             </a>
 
-        </div>
-
-        <div class="footer">
-            © 2026 <span>Mirage</span>
         </div>
 
     </main>
