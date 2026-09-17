@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0a0a0a">
 
     <title>Mirage</title>
 
@@ -12,6 +10,12 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            min-height: 100%;
         }
 
         body {
@@ -25,12 +29,12 @@
                 ),
                 #0a0a0a;
 
-            color: #fff;
+            color: white;
             font-family: Arial, Helvetica, sans-serif;
 
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
 
             padding: 25px;
         }
@@ -69,7 +73,7 @@
             font-weight: 900;
             letter-spacing: -3px;
 
-            margin-bottom: 12px;
+            margin: 0 0 12px;
         }
 
         .description {
@@ -111,9 +115,7 @@
         }
 
         .buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
+            width: 100%;
         }
 
         .button {
@@ -131,16 +133,15 @@
             font-size: 18px;
             font-weight: 800;
 
-            transition: 0.2s ease;
+            background: #facc15;
+            color: #111;
 
             border: 1px solid #facc15;
 
-            background: #facc15;
-
-            color: #111;
-
             box-shadow:
                 0 5px 25px rgba(250, 204, 21, 0.12);
+
+            transition: 0.2s ease;
         }
 
         .button:hover {
